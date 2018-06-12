@@ -19,6 +19,7 @@
 - **decidim-proposals**: Fix link to endorsements behaviour, now it does not link when there are no endorsements. [\#3531](https://github.com/decidim/decidim/pull/3531)
 - **decidim-meetings**: Fix meetings M card cell so that it works outside the component [\#3612](https://github.com/decidim/decidim/pull/3612)
 - **decidim-proposals**: Fix proposals M card cell so that it works outside the component [\#3612](https://github.com/decidim/decidim/pull/3612)
+- **decidim-proposals**: Fix proposal date to published_at in: card_m, details, admin and exporter [\#3649](https://github.com/decidim/decidim/pull/3649)
 
 **Removed**:
 
