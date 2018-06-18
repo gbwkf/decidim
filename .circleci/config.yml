@@ -519,7 +519,8 @@ jobs:
       - run:
           name: Run verifications RSpec
           command: mkdir ~/rspec && cd decidim-verifications && rake
-      - run:
+ 
+ - run:
           name: Format CodeClimate test coverage
           command: ./cc-test-reporter format-coverage -t simplecov -o coverage/codeclimate.verifications.json coverage/.resultset.json
       - store_artifacts:
